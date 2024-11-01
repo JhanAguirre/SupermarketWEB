@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,8 +11,28 @@
       "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\categories\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\categories\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|solutionrelative:pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48EB6CE6-F5B5-43C6-B50B-5209DA0F3D8A}|SupermarketWEB.csproj|c:\\users\\dell\\desktop\\supermarketweb\\supermarketweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,28 +70,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwDIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T19:58:58.5Z",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Categories\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Categories\\Delete.cshtml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T23:01:28.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Categories\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Categories\\Create.cshtml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T19:19:56.502Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T22:59:51.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T19:58:58.5Z",
               "EditorCaption": ""
             },
             {
@@ -101,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -109,12 +130,11 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T17:16:00.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T17:16:00.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Categories\\Index.cshtml.cs",
@@ -127,13 +147,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Categories\\Index.cshtml",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Index.cshtml",
               "RelativeToolTip": "Pages\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T16:12:36.457Z",
               "EditorCaption": ""
@@ -141,6 +161,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Categories\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Categories\\Create.cshtml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:19:56.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SumpermarketContext.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Data\\SumpermarketContext.cs",
               "RelativeDocumentMoniker": "Data\\SumpermarketContext.cs",
@@ -148,12 +180,11 @@
               "RelativeToolTip": "Data\\SumpermarketContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:40:26.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:40:26.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -161,12 +192,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:40:20.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:40:20.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SupermarketWEB.csproj",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\SupermarketWEB.csproj",
               "RelativeDocumentMoniker": "SupermarketWEB.csproj",
@@ -174,12 +204,11 @@
               "RelativeToolTip": "SupermarketWEB.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-31T13:40:26.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:40:26.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -187,12 +216,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T20:34:16.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T20:34:16.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -200,8 +228,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-31T13:40:26.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:40:26.903Z"
             }
           ]
         }
