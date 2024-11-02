@@ -1,0 +1,43 @@
+﻿@page
+@model SupermarketWEB.Pages.PayModes.IndexModel
+@{
+    ViewData["Title"] = "Métodos de Pago";
+}
+
+<h1>Métodos de Pago</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-success">Crear Nuevo</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.PayModes != null && Model.PayModes.Any())
+        {
+            @foreach (var item in Model.PayModes)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Editar</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3" class="text-center">No hay métodos de pago registrados.</td>
+            </tr>
+        }
+    </tbody>
+</table>
