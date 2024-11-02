@@ -46,6 +46,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -59,6 +60,8 @@
           }
         }
       },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -187,6 +190,7 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Design/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -209,6 +213,8 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "Microsoft.EntityFrameworkCore.Relational/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -243,6 +249,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Tools/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -255,6 +262,8 @@
           "lib/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -351,6 +360,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.DependencyModel/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -371,6 +381,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "Microsoft.Extensions.Logging/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -651,6 +663,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -663,6 +676,8 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -672,6 +687,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -683,6 +699,8 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "System.Configuration.ConfigurationManager/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -1048,14 +1066,22 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Text.Encodings.Web/7.0.0": {
         "type": "package",
         "compile": {
           "lib/net7.0/System.Text.Encodings.Web.dll": {
+=======
+      "System.Text.Encodings.Web/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net7.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
@@ -1077,16 +1103,33 @@
         },
         "compile": {
           "lib/net7.0/System.Text.Json.dll": {
+=======
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Json/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net7.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+=======
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -1174,6 +1217,7 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+<<<<<<< HEAD
     "Humanizer.Core/2.14.1": {
       "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "type": "package",
@@ -1192,6 +1236,8 @@
         "logo.png"
       ]
     },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1405,6 +1451,7 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.EntityFrameworkCore.Design/7.0.5": {
       "sha512": "fzoU+Jk/chkqVOzDjuF+fwdc/6Tyqbp9L7rDORqB6IwHRG7nr+QnFOPdRi3B5kAZldvsvhUt+6Cl5qzeLT7B0Q==",
       "type": "package",
@@ -1420,6 +1467,8 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
     "Microsoft.EntityFrameworkCore.Relational/7.0.5": {
       "sha512": "u/33DC4S6g2hpMPgBc5Kdnlz//nqHR5c/ovgjtiP/wQ7sOd0EOdygVzUJAAOxCwbtAHDsJXS9Vc3jLFYq0yu8Q==",
       "type": "package",
@@ -1448,6 +1497,7 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.EntityFrameworkCore.Tools/7.0.5": {
       "sha512": "OV/PUGBVSbQVd2daTeXoMBoao2qtfBgT2TuaYo48xRYUS2gH++f8OFiZc6zwASqkMKgs1/t5uVlxgKl18m/1Fw==",
       "type": "package",
@@ -1473,6 +1523,8 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "sha512": "IeimUd0TNbhB4ded3AbgBLQv2SnsiVugDyGV1MvspQFVlA07nDC7Zul7kcwH5jWN3JiTcp/ySE83AIJo8yfKjg==",
       "type": "package",
@@ -1612,6 +1664,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.DependencyModel/7.0.0": {
       "sha512": "oONNYd71J3LzkWc4fUHl3SvMfiQMYUCo/mDHDEu76hYYxdhdrPYv6fvGv9nnKVyhE9P0h20AU8RZB5OOWQcAXg==",
       "type": "package",
@@ -1640,6 +1693,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
     "Microsoft.Extensions.Logging/7.0.0": {
       "sha512": "Nw2muoNrOG5U5qa2ZekXwudUn2BJcD41e65zwmDHb1fQegTX66UokLWZkJRpqSSHXDOWZ5V0iqhbxOEky91atA==",
       "type": "package",
@@ -2093,6 +2148,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -2106,6 +2162,8 @@
         "mono.texttemplating.nuspec"
       ]
     },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -2137,6 +2195,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -2158,6 +2217,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
     "System.Configuration.ConfigurationManager/5.0.0": {
       "sha512": "aM7cbfEfVNlEEOj3DsZP+2g9NRwbkyiAv2isQEzw7pnkDg9ekCU2m1cdJLM02Uq691OaCS91tooaxcEn8d0q5w==",
       "type": "package",
@@ -3224,16 +3285,24 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Text.Encodings.Web/7.0.0": {
       "sha512": "OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
       "type": "package",
       "path": "system.text.encodings.web/7.0.0",
+=======
+    "System.Text.Encodings.Web/4.7.2": {
+      "sha512": "iTUgB/WtrZ1sWZs84F2hwyQhiRH6QNjQv2DkwrH+WP6RoFga2Q1m3f9/Q7FG8cck8AdHitQkmkXSY8qylcDmuA==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.7.2",
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+<<<<<<< HEAD
         "buildTransitive/net461/System.Text.Encodings.Web.targets",
         "buildTransitive/net462/_._",
         "buildTransitive/net6.0/_._",
@@ -3259,11 +3328,32 @@
       "sha512": "DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "type": "package",
       "path": "system.text.json/7.0.0",
+=======
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.1/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.1/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.7.2.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "type": "package",
+      "path": "system.text.json/4.7.2",
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+<<<<<<< HEAD
         "README.md",
         "THIRD-PARTY-NOTICES.TXT",
         "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
@@ -3324,6 +3414,19 @@
         "system.text.json.7.0.0.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
+=======
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.4.7.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
       ]
     },
     "System.Threading.Tasks/4.3.0": {
@@ -3457,9 +3560,13 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.5",
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5"
+=======
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5"
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
     ]
   },
   "packageFolders": {
@@ -3511,6 +3618,7 @@
             "target": "Package",
             "version": "[7.0.5, )"
           },
+<<<<<<< HEAD
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -3526,6 +3634,11 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.5, )"
+=======
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[7.0.5, )"
+>>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
           }
         },
         "imports": [
