@@ -1,0 +1,84 @@
+﻿@page
+@model SupermarketWEB.Pages.Providers.EditModel
+@{
+    ViewData["Title"] = "Editar Proveedor";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-md-6">
+            <h2 class="text-primary">Editar Proveedor</h2>
+            <hr />
+
+            <form method="post" class="mt-4">
+                <input type="hidden" asp-for="Provider.Id" />
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.Name" class="form-control" placeholder="Nombre" />
+                    <label asp-for="Provider.Name"></label>
+                    <span asp-validation-for="Provider.Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.Document" class="form-control" placeholder="Documento" />
+                    <label asp-for="Provider.Document"></label>
+                    <span asp-validation-for="Provider.Document" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.Email" class="form-control" placeholder="Email" type="email" />
+                    <label asp-for="Provider.Email"></label>
+                    <span asp-validation-for="Provider.Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.DateOfBirth" class="form-control" type="date" />
+                    <label asp-for="Provider.DateOfBirth"></label>
+                    <span asp-validation-for="Provider.DateOfBirth" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid gap-2 d-md-block mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Guardar Cambios
+                    </button>
+                    <a asp-page="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i> Volver a la Lista
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mt-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="card-title mb-0">Información Actual</h5>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Name)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Name</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Document)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Document</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Email)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Email</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.DateOfBirth)</dt>
+                        <dd class="col-sm-8">@Model.Provider.DateOfBirth.ToShortDateString()</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Age)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Age años</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

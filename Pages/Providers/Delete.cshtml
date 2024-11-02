@@ -1,0 +1,72 @@
+﻿@page
+@model SupermarketWEB.Pages.Providers.DeleteModel
+@{
+    ViewData["Title"] = "Eliminar Proveedor";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-md-6">
+            <div class="card border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="mb-0">
+                        <i class="bi bi-exclamation-triangle-fill"></i>
+                        Confirmar Eliminación
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-warning" role="alert">
+                        <i class="bi bi-exclamation-circle"></i>
+                        ¿Está seguro que desea eliminar este proveedor? Esta acción no se puede deshacer.
+                    </div>
+
+                    <dl class="row mt-4">
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Name)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Name</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Document)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Document</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Email)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Email</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.DateOfBirth)</dt>
+                        <dd class="col-sm-8">@Model.Provider.DateOfBirth.ToShortDateString()</dd>
+
+                        <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Provider.Age)</dt>
+                        <dd class="col-sm-8">@Model.Provider.Age años</dd>
+                    </dl>
+
+                    <form method="post" class="mt-4">
+                        <input type="hidden" asp-for="Provider.Id" />
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-danger me-md-2">
+                                <i class="bi bi-trash"></i> Eliminar
+                            </button>
+                            <a asp-page="./Index" class="btn btn-secondary">
+                                <i class="bi bi-x-circle"></i> Cancelar
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        @if (Model.HasRelatedRecords)
+        {
+            <div class="col-md-6">
+                <div class="card border-info mt-3 mt-md-0">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0">Información Importante</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="bi bi-info-circle"></i>
+                            Este proveedor tiene registros relacionados. Al eliminarlo, se eliminarán también todos los registros asociados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
