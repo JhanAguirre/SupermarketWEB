@@ -5,7 +5,7 @@
 namespace SupermarketWEB.Migrations
 {
     /// <inheritdoc />
-    public partial class AddProviderTable : Migration
+    public partial class AddPayModeTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

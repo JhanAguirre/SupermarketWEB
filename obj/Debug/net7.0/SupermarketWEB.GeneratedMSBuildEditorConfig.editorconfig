@@ -9,103 +9,131 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SupermarketWEB
 build_property.RootNamespace = SupermarketWEB
-build_property.ProjectDir = C:\Users\Dell\Desktop\XXXXXX\
+build_property.ProjectDir = C:\Users\Dell\Desktop\SupermarketWEB - copia\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dell\Desktop\XXXXXX
+build_property.MSBuildProjectDirectory = C:\Users\Dell\Desktop\SupermarketWEB - copia
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Categories/Create.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Categories/Delete.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Categories/Edit.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Categories/Index.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Error.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Index.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/PayModes/Create.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/PayModes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5TW9kZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/PayModes/Delete.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/PayModes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5TW9kZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/PayModes/Edit.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/PayModes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5TW9kZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/PayModes/Index.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/PayModes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5TW9kZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Privacy.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Products/Create.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Products/Delete.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Products/Edit.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Products/Index.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Providers/Create.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Providers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmlkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Providers/Delete.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Providers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmlkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Providers/Edit.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Providers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmlkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Providers/Index.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Providers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmlkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Shared/_LoginStatusPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblN0YXR1c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/_ViewImports.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/_ViewStart.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dell/Desktop/XXXXXX/Pages/Shared/_Layout.cshtml]
+[C:/Users/Dell/Desktop/SupermarketWEB - copia/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4zkxjzih9o

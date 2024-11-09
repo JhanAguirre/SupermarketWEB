@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\SupermarketWEB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj": {
+    "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\SupermarketWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\SupermarketWEB.csproj",
         "projectName": "SupermarketWEB",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\SupermarketWEB.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\XXXXXX\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

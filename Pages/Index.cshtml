@@ -1,10 +1,101 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+    <div class="row align-items-center g-5">
+      
+        <div class="col-lg-6">
+            <h1 class="display-4 fw-bold text-primary mb-3">Sistema de Gestión de Supermercado</h1>
+            <p class="lead text-muted mb-4">
+                
+            </p>
+            <div class="d-grid gap-3 d-sm-flex">
+                <a asp-page="/Products/Index" class="btn btn-primary btn-lg px-4">
+                    <i class="bi bi-box-seam"></i> Productos
+                </a>
+                <a asp-page="/Providers/Index" class="btn btn-outline-primary btn-lg px-4">
+                    <i class="bi bi-people"></i> Proveedores
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-body p-4">
+                    <h2 class="h4 mb-4">Acceso Rápido</h2>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="d-grid">
+                                <a asp-page="/Categories/Index" class="btn btn-light btn-lg text-start">
+                                    <i class="bi bi-tags"></i>
+                                    <span class="ms-2">Categorías</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-grid">
+                                <a asp-page="/PayModes/Index" class="btn btn-light btn-lg text-start">
+                                    <i class="bi bi-credit-card"></i>
+                                    <span class="ms-2">Métodos de Pago</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card bg-light mt-4">
+                        <div class="card-body">
+                            <h3 class="h5 mb-3">Datos</h3>
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="border rounded p-3 text-center bg-white">
+                                        <i class="bi bi-box-seam text-primary fs-4"></i>
+                                        <div class="mt-2">
+                                            <span class="h4 fw-bold">@ViewData["ProductCount"]</span>
+                                            <p class="small text-muted mb-0">Productos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="border rounded p-3 text-center bg-white">
+                                        <i class="bi bi-people text-primary fs-4"></i>
+                                        <div class="mt-2">
+                                            <span class="h4 fw-bold">@ViewData["ProviderCount"]</span>
+                                            <p class="small text-muted mb-0">Proveedores</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+@section Styles {
+    <style>
+        .btn-light {
+            background-color: #f8f9fa;
+            border-color: #dee2e6;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .btn-light:hover {
+            background-color: #e9ecef;
+            transform: translateY(-2px);
+        }
+
+        .card {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+}

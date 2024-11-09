@@ -1,10 +1,11 @@
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using SupermarketWEB.Data;
 using SupermarketWEB.Models;
+using Microsoft.AspNetCore.Authorization;
 
-namespace SupermarketWEB.Pages.Providers
+namespace SupermarketWEB.Pages.Users
 {
     [Authorize]
     public class IndexModel : PageModel
@@ -18,21 +19,11 @@ namespace SupermarketWEB.Pages.Providers
             _logger = logger;
         }
 
-        public IList<Provider> Providers { get; set; } = default!;
+        public IList<User> Users { get; set; } = default!;
 
         public async Task OnGetAsync()
         {
-            try
-            {
-                Providers = await _context.Providers
-                    .OrderBy(p => p.Name)
-                    .ToListAsync();
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error al cargar la lista de proveedores");
-                Providers = new List<Provider>();
-            }
+            Users = await _context.Users.ToListAsync();
         }
     }
 }

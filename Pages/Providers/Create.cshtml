@@ -1,36 +1,52 @@
 ﻿@page
 @model SupermarketWEB.Pages.Providers.CreateModel
+@{
+    ViewData["Title"] = "Crear Proveedor";
+}
 
-<h1>Crear Proveedor</h1>
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-md-6">
+            <h2 class="text-primary">Crear Nuevo Proveedor</h2>
+            <hr />
 
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <form method="post" class="mt-4">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
 
-            <div class="form-group mb-3">
-                <label asp-for="Provider.Name" class="control-label">Nombre</label>
-                <input asp-for="Provider.Name" class="form-control" />
-                <span asp-validation-for="Provider.Name" class="text-danger"></span>
-            </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.Name" class="form-control" placeholder="Nombre" />
+                    <label asp-for="Provider.Name"></label>
+                    <span asp-validation-for="Provider.Name" class="text-danger"></span>
+                </div>
 
-            <div class="form-group mb-3">
-                <label asp-for="Provider.Document" class="control-label">Documento</label>
-                <input asp-for="Provider.Document" class="form-control" />
-                <span asp-validation-for="Provider.Document" class="text-danger"></span>
-            </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.Document" class="form-control" placeholder="Documento" />
+                    <label asp-for="Provider.Document"></label>
+                    <span asp-validation-for="Provider.Document" class="text-danger"></span>
+                </div>
 
-            <div class="form-group mb-3">
-                <label asp-for="Provider.Email" class="control-label">Email</label>
-                <input asp-for="Provider.Email" class="form-control" type="email" />
-                <span asp-validation-for="Provider.Email" class="text-danger"></span>
-            </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.Email" class="form-control" placeholder="Email" type="email" />
+                    <label asp-for="Provider.Email"></label>
+                    <span asp-validation-for="Provider.Email" class="text-danger"></span>
+                </div>
 
-            <div class="form-group mt-3">
-                <input type="submit" value="Crear" class="btn btn-primary" />
-                <a asp-page="./Index" class="btn btn-secondary">Volver a la lista</a>
-            </div>
-        </form>
+                <div class="form-floating mb-3">
+                    <input asp-for="Provider.DateOfBirth" class="form-control" type="date" />
+                    <label asp-for="Provider.DateOfBirth"></label>
+                    <span asp-validation-for="Provider.DateOfBirth" class="text-danger"></span>
+                </div>
+
+                <div class="d-grid gap-2 d-md-block mt-4">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Guardar
+                    </button>
+                    <a asp-page="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i> Volver a la Lista
+                    </a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
