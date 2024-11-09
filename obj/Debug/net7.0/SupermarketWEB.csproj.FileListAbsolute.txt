@@ -77,3 +77,15 @@ C:\Users\Dell\Desktop\SupermarketWEB\SupermarketWEB\bin\Debug\net7.0\Mono.TextTe
 C:\Users\Dell\Desktop\SupermarketWEB\SupermarketWEB\bin\Debug\net7.0\System.CodeDom.dll
 =======
 >>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.AssemblyInfo.cs
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.RazorAssemblyInfo.cache
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.RazorAssemblyInfo.cs
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.sourcelink.json
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.dll
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\refint\SupermarketWEB.dll
+C:\Users\Dell\Desktop\XXXXXX\obj\Debug\net7.0\SupermarketWEB.pdb

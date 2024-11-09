@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\SupermarketWEB.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\SupermarketWEB.csproj": {
+    "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\SupermarketWEB.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj",
         "projectName": "SupermarketWEB",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\SupermarketWEB.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\SupermarketWEB\\SupermarketWEB\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\XXXXXX\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,7 +50,6 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
-<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -66,11 +65,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
-=======
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.5, )"
->>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
             }
           },
           "imports": [

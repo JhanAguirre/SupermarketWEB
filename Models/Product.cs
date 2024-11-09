@@ -1,14 +1,9 @@
-<<<<<<< HEAD
-﻿using System.ComponentModel.DataAnnotations;
-=======
-﻿using System.ComponentModel.DataAnnotations.Schema;
->>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
+using System.ComponentModel.DataAnnotations;
 
 namespace SupermarketWEB.Models
 {
     public class Product
     {
-<<<<<<< HEAD
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El nombre es requerido")]
@@ -29,20 +24,3 @@ namespace SupermarketWEB.Models
         public Category? Category { get; set; }
     }
 }
-=======
-        // [Key] -> Anotación si la propiedad no se llama Id, ejemplo ProductId
-        public int Id { get; set; } // Será la llave primaria
-
-        public string Name { get; set; }
-
-        [Column(TypeName = "decimal(6,2)")]
-        public decimal Price { get; set; }
-
-        public int Stock { get; set; }
-
-        public int CategoryId { get; set; } // Será la llave foranea
-
-        public Category Category { get; set; } // Propiedad de navegación
-    }
-}
->>>>>>> 2259ff3db980ad36a4da4cd4a04b056baa246be0
