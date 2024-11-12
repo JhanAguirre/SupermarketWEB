@@ -12,10 +12,19 @@ namespace SupermarketWEB
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-
             builder.Services.AddDbContext<SupermarketContext>(options =>
-             options.UseSqlServer(builder.Configuration.GetConnectionString("SupermarketDB"))
-);
+                options.UseSqlServer(builder.Configuration.GetConnectionString("SupermarketDB"))
+            );
+
+            // Agregar el servicio de autenticación
+            builder.Services.AddAuthentication("MyCookieAuth")
+                .AddCookie("MyCookieAuth", options =>
+                {
+                    options.Cookie.Name = "MyCookieAuth";
+                    options.LoginPath = "/Account/Login";
+                    options.AccessDeniedPath = "/Account/AccessDenied";
+                });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -28,13 +37,14 @@ namespace SupermarketWEB
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
+            // Agregar middleware de autenticación ANTES de autorización
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapRazorPages();
-                    
+
             app.Run();
         }
     }

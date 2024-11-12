@@ -3468,11 +3468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\SupermarketWEB.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj",
       "projectName": "SupermarketWEB",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\SupermarketWEB.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\XXXXXX\\SupermarketWEB.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\SupermarketWEB - copia\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\XXXXXX\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
